@@ -1,23 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-/* shared styles */
-.inter_normal{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+
+body {
+    background-color: rgba(78, 71, 255, 0.05);
 }
 
-.raleway_normal{
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+/* shared styles */
+.inter_normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-.primary_color{
+
+.raleway_normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.primary_color {
     color: #4E47FF;
 }
-.btn_primary{
+
+.btn_primary {
     font-size: 16px;
     background-color: #4E47FF;
     padding: 12px 36px;
@@ -26,71 +33,173 @@
     border-radius: 10px;
     border: none;
 }
-.btn_primary:hover{
+
+.btn_primary:hover {
     color: black;
     background-color: aquamarine;
     box-shadow: 5px 5px 10px rgba(17, 17, 17, .5);
     transition: all .3s;
 }
-.text_center{
+
+.text_center {
     text-align: center;
 }
-.section_title{
+
+.section_title {
     font-family: "Raleway", sans-serif;
     font-size: 42px;
     font-weight: 700;
     color: #252432;
 }
-.section_description{
+
+.section_description {
     font-family: "Raleway", sans-serif;
     font-size: 24px;
     color: #252432;
 }
+
+
 /* header styles */
-.header{
+.header {
     background-image: url('../Assets/Hero-bg.png');
 }
+
 /* nav styles */
-.navbar{
+.navbar {
     max-width: 1140px;
     margin: 0 auto;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 50px 0 0 0;
 }
-.logo{
+
+.logo {
     font-size: 34px;
     font-weight: 900;
 }
+
 /* banner styles */
-.banner{
-padding: 155px 0 150px 0;
+.banner {
+    padding: 155px 0 150px 0;
 }
-.banner_title{
+
+.banner_title {
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 35px;
 }
+
 /* main styles */
-main{
-    margin: 120px 0;
-}
-/* action styles */
-.action{
+main {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+main section {
+    margin: 120px 0;
+}
+
+/* action styles */
+.action {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 220px;
 }
-.action_description{
+
+.action_description {
     margin: 23px 0;
 }
-.action_image{
+
+.action_image {
     border-radius: 48px;
 }
+
 /* user styles */
+.user {
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px 0;
+    border-radius: 24px;
+}
+
+.users_ratio {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.user_title {
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+}
+
+.user_description {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* comment styles */
+.comment_cards {
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.comment_card {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 14px;
+}
+
+.card_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 24px 0 10px 0;
+}
+
+.card_reviewer {
+    display: flex;
+    gap: 6px;
+}
+
+.card_description {
+    margin-bottom: 24px;
+}
+
+.card_profile {
+    border-radius: 50%;
+}
+
+.reviewer_name {
+    color: rgba(117, 117, 117, 1);
+}
+
+.review_date {
+    color: rgba(179, 179, 179, 1);
+}
+
+/* focus styles */
+.focus {
+    background-color: #ffffff;
+    padding: 71px 0;
+    border-radius: 14px;
+}
+
+.section_description {
+    font-size: small;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+.focus_image {
+    margin-top: 20px;
+    border-radius: 48px;
+}
