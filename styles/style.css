@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* shared styles */
 .inter_normal{
   font-family: "Inter", sans-serif;
@@ -14,6 +18,7 @@
     color: #4E47FF;
 }
 .btn_primary{
+    font-size: 16px;
     background-color: #4E47FF;
     padding: 12px 36px;
     color: #ffffff;
@@ -22,7 +27,6 @@
     border: none;
 }
 .btn_primary:hover{
-    font-size: 16px;
     color: black;
     background-color: aquamarine;
     box-shadow: 5px 5px 10px rgba(17, 17, 17, .5);
@@ -30,6 +34,17 @@
 }
 .text_center{
     text-align: center;
+}
+.section_title{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+}
+.section_description{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    color: #252432;
 }
 /* header styles */
 .header{
@@ -44,6 +59,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 50px 0 0 0;
 }
 .logo{
     font-size: 34px;
@@ -56,4 +72,25 @@ padding: 155px 0 150px 0;
 .banner_title{
     font-size: 65px;
     font-weight: 700;
+    margin-bottom: 35px;
 }
+/* main styles */
+main{
+    margin: 120px 0;
+}
+/* action styles */
+.action{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 220px;
+}
+.action_description{
+    margin: 23px 0;
+}
+.action_image{
+    border-radius: 48px;
+}
+/* user styles */
