@@ -203,3 +203,34 @@ main section {
     margin-top: 20px;
     border-radius: 48px;
 }
+
+/* touch styles */
+.touch {
+    display: flex;
+    gap: 115px;
+    align-items: center;
+}
+
+.touch_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 97px;
+    font-weight: 700;
+}
+
+input,
+textarea {
+    padding: 25px 0 25px 32px;
+    width: 95%;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.touch_submit {
+    width: 90%;
+}
